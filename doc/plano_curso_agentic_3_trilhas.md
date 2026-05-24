@@ -1,455 +1,450 @@
-# Plano de Curso Completo — Agentic em 3 Trilhas
+# Complete Course Plan — Agentic in 3 Tracks
 
-## 1. Analise do conteudo atual do projeto
+## 1. Analysis of the current project content
 
-O projeto hoje esta concentrado em materiais de apoio dentro de `doc/` e ainda nao possui a estrutura do curso em HTML.
+The project today is focused on support materials within`doc/`and does not yet have the course structure in HTML.
 
-### Arquivos principais encontrados
+### Core files found
 
-- `doc/conteudo_agentic_sessao.md`
+-`doc/conteudo_agentic_sessao.md`
 - `doc/agentic_workflows_guia_completo.md`
-- `doc/resuam todo os topicos.txt`
-- imagens e um video em `doc/`
+- `doc/resuam todo os topicos.txt`- images and a video in`doc/`### What the current content covers well
 
-### O que o conteudo atual cobre bem
+- definition of Agentic AI and agentic workflows
+- difference between chatbot, traditional and agentic automation
+- WAT framework: Workflows, Agent, Tools
+- example of an automated newsletter
+- basic system planning
+- use of credentials and`.env`- testing and continuous improvement
+- market narrative, value, ROI and consultative selling
 
-- definicao de Agentic AI e workflows agentic
-- diferenca entre chatbot, automacao tradicional e agentic
-- framework WAT: Workflows, Agent, Tools
-- exemplo de newsletter automatizada
-- planejamento basico do sistema
-- uso de credenciais e `.env`
-- testes e melhoria continua
-- narrativa de mercado, valor, ROI e venda consultiva
+### Main problem of current material
 
-### Problema principal do material atual
+The content is strong in introduction, positioning and commercial narrative, but is still shallow in terms of implementation, architecture, operation and pedagogical progression.
 
-O conteudo esta forte em introducao, posicionamento e narrativa comercial, mas ainda esta raso na parte de implementacao, arquitetura, operacao e progressao pedagogica.
+### Gaps to transform into a complete course
 
-### Lacunas para transformar em curso completo
+- minimal technical fundamentals for beginners
+- drawing real workflows step by step
+- tools, APIs, webhooks and data formats
+- context, memory, state and persistence
+- skills, MCP and integrations
+- evaluation, testing, observability and cost
+- security, guardrails and operational limits
+- deploy, scheduling and operation in production
+- complete case studies
+- exercises, projects and deliverables per module
 
-- fundamentos tecnicos minimos para iniciantes
-- desenho de workflows reais passo a passo
-- ferramentas, APIs, webhooks e formatos de dados
-- contexto, memoria, estado e persistencia
-- skills, MCP e integracoes
-- avaliacao, testes, observabilidade e custo
-- seguranca, guardrails e limites operacionais
-- deploy, agendamento e operacao em producao
-- estudos de caso completos
-- exercicios, projetos e entregaveis por modulo
+## 1.1 Recommended direction to fill in the gaps
 
-## 1.1 Direcao recomendada para preencher as lacunas
+If the objective is to develop **agentic engineer** talent, the course should reduce passive theory and increase operational training.
 
-Se o objetivo e formar talento de **engenheiro de agentic**, o curso deve reduzir teoria passiva e aumentar treino operacional.
+### Recommended focus
 
-### Foco recomendado
+- design tools with clear schema and explicit limits
+- decompose problems into testable workflows
+- define inputs, outputs and success criteria
+- inspect traces and debug execution failures
+- create evals and graders to measure quality
+- work with human approvals and guardrails
+- operate real integrations with state, memory and logs
+- deploy, observability and continuous improvement
 
-- projetar tools com schema claro e limites explicitos
-- decompor problemas em workflows testaveis
-- definir entradas, saidas e criterios de sucesso
-- inspecionar traces e depurar falhas de execucao
-- criar evals e graders para medir qualidade
-- trabalhar com aprovacoes humanas e guardrails
-- operar integracoes reais com estado, memoria e logs
-- fazer deploy, observabilidade e melhoria continua
+### What to avoid as a central focus
 
-### O que evitar como foco central
+- excess motivational class on the future of the market
+- excessive conceptual comparison without implementation
+- beautiful demos without reliability criteria
+- very generic modules about AI without practical artifact
 
-- excesso de aula motivacional sobre futuro do mercado
-- excesso de comparacao conceitual sem implementacao
-- demos bonitas sem criterios de confiabilidade
-- modulos muito genericos sobre IA sem artefato pratico
+## 2. Recommended structure in 3 trails
 
-## 2. Recomendacao de estrutura em 3 trilhas
+The best division for this project is to separate the course by maturity and objective:
 
-A melhor divisao para este projeto e separar o curso por maturidade e objetivo:
+1. Track 1: Agentic Fundamentals
+2. Track 2: Construction and Operation of Agentic Systems
+3. Track 3: Market Application, Consulting and Products
 
-1. Trilha 1: Fundamentos Agentic
-2. Trilha 2: Construcao e Operacao de Sistemas Agentic
-3. Trilha 3: Aplicacao de Mercado, Consultoria e Produtos
+This division takes advantage of the current material in tracks 1 and 3 and creates a more technical track 2, which is currently the biggest gap in the project.
 
-Essa divisao aproveita o material atual nas trilhas 1 e 3 e cria uma trilha 2 mais tecnica, que hoje e a maior lacuna do projeto.
+## 3. Detailed track structure
 
-## 3. Estrutura detalhada das trilhas
+## Track 1 — Agentic Fundamentals
 
-## Trilha 1 — Fundamentos Agentic
+### Objective
 
-### Objetivo
+Provide a minimal conceptual and technical basis for those who are still transitioning from chatbots and traditional automation.
 
-Dar base conceitual e tecnica minima para quem ainda esta saindo de chatbot e automacao tradicional.
+### Suggested modules
 
-### Modulos sugeridos
+#### Module 1. What is Agentic AI
 
-#### Modulo 1. O que e Agentic AI
+- central concept
+- why does it matter now
+- difference between chatbot, automation and agentic
+- types of problems that agentic solves best
 
-- conceito central
-- por que isso importa agora
-- diferenca entre chatbot, automacao e agentic
-- tipos de problemas que agentic resolve melhor
+#### Module 2. Technical fundamentals without hassle
 
-#### Modulo 2. Fundamentos tecnicos sem enrolacao
+- how APIs work
+- what are webhooks
+- JSON, files, inputs and outputs
+- environment variables and credentials
 
-- como APIs funcionam
-- o que sao webhooks
-- JSON, arquivos, entradas e saidas
-- variaveis de ambiente e credenciais
-
-#### Modulo 3. Estrutura WAT
+#### Module 3. WAT Structure
 
 - Workflows
-- Agent
-- Tools
-- como cada parte se conecta
-- quando usar fluxo deterministico vs fluxo agentico
+-Agent
+-Tools
+- how each part connects
+- when to use deterministic flow vs agentic flow
 
-#### Modulo 4. Como pensar em objetivos, contexto e restricoes
+#### Module 4. How to think about objectives, context and restrictions
 
-- objetivo claro
-- criterios de sucesso
-- entradas obrigatorias
-- saidas esperadas
-- regras e limites do agente
+- clear objective
+- success criteria
+- mandatory entries
+- expected outputs
+- agent rules and limits
 
-#### Modulo 5. Skills, ferramentas e contexto reutilizavel
+#### Module 5. Skills, tools and reusable context
 
-- o que e uma skill
-- como organizar instrucoes reutilizaveis
-- padroes de tool use
-- contexto de marca, estilo e negocio
+- what is a skill
+- how to organize reusable instructions
+- tool use patterns
+- brand, style and business context
 
-#### Modulo 6. Primeiro workflow agentic guiado
+#### Module 6. First guided agentic workflow
 
-- exemplo simples de pesquisa + estruturacao + entrega
-- decomposicao em etapas
-- erros mais comuns de iniciantes
+- simple example of research + structuring + delivery
+- decomposition into steps
+- most common beginner mistakes
 
-### O que pode ser reaproveitado do projeto atual
+### What can be reused from the current project
 
-- quase todo o conteudo conceitual atual
-- comparacoes entre chatbot, automacao e agentic
+- almost all current conceptual content
+- comparisons between chatbot, automation and agentic
 - WAT
-- exemplo de newsletter
+- newsletter example
 
-## Trilha 2 — Construcao e Operacao de Sistemas Agentic
+## Track 2 — Construction and Operation of Agentic Systems
 
-### Objetivo
+### Objective
 
-Ensinar como desenhar, construir, testar e operar sistemas agentic de verdade.
+Teach how to design, build, test and operate real agentic systems.
 
-### Modulos sugeridos
+### Suggested modules
 
-#### Modulo 1. Arquitetura de um sistema agentic
+#### Module 1. Architecture of an agentic system
 
-- entrada, planejamento, execucao e saida
-- componentes do sistema
-- orquestracao
-- separacao entre agente, tools e runtime
+- input, planning, execution and output
+- system components
+- orchestration
+- separation between agent, tools and runtime
 
-#### Modulo 2. Design de workflows confiaveis
+#### Module 2. Designing reliable workflows
 
-- decomposicao de tarefas
-- pontos de decisao
+- task decomposition
+- decision points
 - fallback
 - retry
 - checkpoints
 - human in the loop
 
-#### Modulo 3. Ferramentas e integracoes
+#### Module 3. Tools and integrations
 
-- leitura e escrita de arquivos
-- consumo de API
-- banco de dados
+- reading and writing files
+- API consumption
+- database
 - email
-- scraping e pesquisa
-- geracao de artefatos
-- design de tool schema e contratos de entrada/saida
-- quando exigir confirmacao humana antes da acao
+- scraping and searching
+- generation of artifacts
+- tool schema design and input/output contracts
+- when to require human confirmation before action
 
-#### Modulo 4. Memoria, contexto e persistencia
+#### Module 4. Memory, context and persistence
 
-- contexto temporario vs persistente
-- historico de execucao
-- armazenamento de estado
-- como evitar perda de contexto
+- temporary vs persistent context
+- execution history
+- state storage
+- how to avoid loss of context
 
-#### Modulo 5. Testes, evals e depuracao
+#### Module 5. Tests, evals and debugging
 
-- testes de fluxo
-- casos limite
-- validacao de saida
-- rastreabilidade
-- como medir qualidade
-- traces e trace grading
-- graders objetivos e subjetivos
-- regressao entre versoes de prompt, tool e workflow
+- flow tests
+- limit cases
+- exit validation
+- traceability
+- how to measure quality
+- traces and trace grading
+- objective and subjective graders
+- regression between prompt, tool and workflow versions
 
-#### Modulo 6. Seguranca e governanca
+#### Module 6. Security and governance
 
-- escopo de acesso do agente
-- protecao de credenciais
-- acoes destrutivas
-- confirmacoes humanas
-- compliance basico
-- isolamento de dados nao confiaveis
-- prompt injection e uso de saídas estruturadas
+- agent access scope
+- credential protection
+- destructive actions
+- human confirmations
+- basic compliance
+- isolation of unreliable data
+- prompt injection and use of structured outputs
 
-#### Modulo 7. Deploy e operacao
+#### Module 7. Deploy and operation
 
-- execucao local
-- execucao agendada
+- local execution
+- scheduled execution
 - webhooks
-- filas
-- monitoramento
-- custos e limites
-- observabilidade por trace
-- estrategia de retry e fallback em producao
+- queues
+- monitoring
+- costs and limits
+- trace observability
+- retry and fallback strategy in production
 
-#### Modulo 8. Projeto pratico completo
+#### Module 8. Complete practical project
 
-- construir um workflow de ponta a ponta
-- documentar arquitetura
-- testar
-- publicar
+- build an end-to-end workflow
+- document architecture
+- test
+- publish
 
-### Lacuna atual do projeto
+### Current project gap
 
-Essa trilha quase nao existe no material atual e precisa ser produzida praticamente do zero.
+This track almost doesn't exist in the current material and needs to be produced practically from scratch.
 
-### Formato ideal dessa trilha
+### Ideal format for this track
 
-Cada modulo deve terminar com um artefato de engenharia observavel:
+Each module must end with an observable engineering artifact:
 
-- arquivo de especificacao do workflow
-- contrato JSON de tools
-- suite minima de eval
-- checklist de seguranca
-- log ou trace analisado
-- mini projeto executavel
+- workflow specification file
+- JSON tools contract
+- minimal eval suite
+- security checklist
+- log or trace analyzed
+- executable mini project
 
-## Trilha 3 — Aplicacao de Mercado, Consultoria e Produtos
+## Track 3 — Market Application, Consulting and Products
 
-### Objetivo
+### Objective
 
-Transformar conhecimento tecnico em valor de negocio, servico, consultoria ou produto.
+Transform technical knowledge into business value, service, consultancy or product.
 
-### Modulos sugeridos
+### Suggested modules
 
-#### Modulo 1. Identificando gargalos reais
+#### Module 1. Identifying real bottlenecks
 
-- como diagnosticar processos
-- onde agentic gera valor
-- quando NAO usar agentic
+- how to diagnose processes
+- where agentic generates value
+- when NOT to use agentic
 
-#### Modulo 2. Casos de uso por area
+#### Module 2. Use cases by area
 
-- marketing e conteudo
-- vendas e CRM
-- atendimento
-- operacoes
-- financeiro
-- RH
+- marketing and content
+- sales and CRM
+- service
+- operations
+- financial
+- HR
 
-#### Modulo 3. Escopo e proposta
+#### Module 3. Scope and proposal
 
 - discovery
-- mapa do processo atual
-- desenho da solucao futura
-- riscos e premissas
+- current process map
+- design of the future solution
+- risks and assumptions
 
-#### Modulo 4. ROI e precificacao
+#### Module 4. ROI and pricing
 
-- horas economizadas
-- custo evitado
-- aumento de receita
-- preco por valor entregue
+- hours saved
+- cost avoided
+- increase in revenue
+- price per value delivered
 
-#### Modulo 5. Entrega para cliente
+#### Module 5. Delivery to customer
 
 - onboarding
-- coleta de acessos
-- validacao
-- rollout
-- handoff e manutencao
+- access collection
+- validation
+-rollout
+- handoff and maintenance
 
-#### Modulo 6. Portfolio e produto
+#### Module 6. Portfolio and product
 
-- transformar um projeto em case
-- empacotar servicos
-- criar oferta recorrente
-- evoluir de freelancer para parceiro estrategico
+- transform a project into a case
+- package services
+- create recurring offer
+- evolve from freelancer to strategic partner
 
-#### Modulo 7. Capstone de negocio
+#### Module 7. Business Capstone
 
-- diagnosticar uma empresa
-- propor workflow
-- calcular ROI
-- desenhar implementacao
+- diagnose a company
+- propose workflow
+- calculate ROI
+- design implementation
 
-### O que pode ser reaproveitado do projeto atual
+### What can be reused from the current project
 
-- analogia do gargalo
-- valor gerado vs preco por hora
-- caminho freelancer -> consultor -> parceiro estrategico
+- bottleneck analogy
+- value generated vs price per hour
+- freelance path -> consultant -> strategic partner
 
-## 4. Ordem pedagogica recomendada
+## 4. Recommended pedagogical order
 
-Se o aluno fizer o curso completo:
+If the student takes the full course:
 
-1. Trilha 1 primeiro
-2. Trilha 2 depois
-3. Trilha 3 por ultimo
+1. Track 1 first
+2. Track 2 after
+3. Trail 3 last
 
-Se o publico for mais tecnico:
+If the audience is more technical:
 
-1. Trilha 1 condensada
-2. Trilha 2 completa
-3. Trilha 3 como especializacao
+1. Condensed Track 1
+2. Complete trail 2
+3. Track 3 as a specialization
 
-Se o publico for consultor, estrategista ou dono de agencia:
+If the audience is a consultant, strategist or agency owner:
 
-1. Trilha 1
-2. Trilha 3
-3. Trilha 2 como aprofundamento tecnico
+1. Track 1
+2. Track 3
+3. Trail 2 as technical deepening
 
-## 5. Reorganizacao sugerida do conteudo atual
+## 5. Suggested reorganization of current content
 
-### Conteudo que ja pode virar aulas rapidamente
+### Content that can quickly become classes
 
-- introducao ao agentic
-- comparativo com chatbot e automacao
-- framework WAT
-- exemplo de workflow de newsletter
-- por que o mercado esta crescendo
-- habilidades e modelos de negocio
+- introduction to agentic
+- comparison with chatbot and automation
+- WAT framework
+- newsletter workflow example
+- why the market is growing
+- skills and business models
 
-### Conteudo novo que precisa ser criado prioritariamente
+### New content that needs to be created as a priority
 
-- fundamentos tecnicos: API, webhook, JSON, auth, `.env`
-- design de workflow e orquestracao
-- tools e integracoes na pratica
-- memoria e contexto
-- testes e evals
-- deploy e operacao
-- seguranca e guardrails
-- 2 ou 3 projetos praticos completos
+- technical fundamentals: API, webhook, JSON, auth,`.env`- workflow design and orchestration
+- tools and integrations in practice
+- memory and context
+- tests and evals
+- deploy and operation
+- security and guardrails
+- 2 or 3 complete practical projects
 
-## 6. Sugestao de projetos ancora do curso
+## 6. Suggested course anchor projects
 
-Para dar unidade ao curso, recomendo 3 projetos principais:
+To give unity to the course, I recommend 3 main projects:
 
-1. Assistente de pesquisa e sintese
-   - bom para Trilha 1
-2. Workflow agentic de conteudo ou operacao com tools
-   - bom para Trilha 2
-3. Diagnostico e proposta agentic para empresa real
-   - bom para Trilha 3
+1. Research and synthesis assistant
+   - good for Trail 1
+2. Agentic workflow of content or operation with tools
+   - good for Trail 2
+3. Diagnosis and agentic proposal for real company
+   - good for Track 3
 
-## 6.1 Projetos praticos recomendados para desenvolver talento de engenharia agentic
+## 6.1 Recommended practical projects to develop agentic engineering talent
 
-Para o curso ficar realmente formador, recomendo trocar parte das aulas expositivas por laboratorios progressivos.
+For the course to be truly educational, I recommend exchanging part of the lectures for progressive laboratories.
 
-### Laboratorio 1. Tool calling basico
+### Laboratory 1. Tool calling basic
 
-- desenhar 3 tools com schema
-- testar entradas validas e invalidas
-- observar quando o agente chama a tool errada
-- refinar descricao e parametros
+- design 3 tools with schema
+- test valid and invalid inputs
+- observe when the agent calls the wrong tool
+- refine description and parameters
 
-### Laboratorio 2. Workflow deterministico + etapa agentica
+### Laboratory 2. Deterministic workflow + agentic stage
 
-- separar o que deve ser fixo do que pode ser decidido pelo agente
-- criar checkpoints
-- validar saida final contra criterios objetivos
+- separate what must be fixed from what can be decided by the agent
+- create checkpoints
+- validate final output against objective criteria
 
-### Laboratorio 3. Memoria e estado
+### Laboratory 3. Memory and status
 
-- salvar historico minimo
-- retomar uma execucao
-- distinguir contexto de sessao e contexto persistente
+- save minimum history
+- resume an execution
+- distinguish session context and persistent context
 
-### Laboratorio 4. Evals e trace debugging
+### Laboratory 4. Evals and trace debugging
 
-- criar dataset pequeno de casos
-- rodar avaliacao
-- analisar traces
-- corrigir falha sem piorar casos que ja funcionavam
+- create small dataset of cases
+- run evaluation
+- analyze traces
+- fix failure without worsening cases that already worked
 
-### Laboratorio 5. Seguranca e aprovacao humana
+### Laboratory 5. Safety and human approval
 
-- limitar escopo de tools
-- bloquear operacoes destrutivas sem aprovacao
-- testar cenarios de entrada maliciosa
+- limit scope of tools
+- block destructive operations without approval
+- test malicious entry scenarios
 
-### Laboratorio 6. MCP na pratica
+### Laboratory 6. MCP in practice
 
-- expor ou consumir um MCP server simples
-- testar recursos, prompts e tools
-- inspecionar capacidades e erros de integracao
+- expose or consume a simple MCP server
+- test resources, prompts and tools
+- inspect integration capabilities and errors
 
-### Laboratorio 7. Deploy e operacao
+### Laboratory 7. Deploy and operation
 
-- colocar um workflow para rodar por evento ou agendamento
-- instrumentar logs
-- medir custo, latencia e taxa de falha
+- set a workflow to run per event or schedule
+- instrument logs
+- measure cost, latency and failure rate
 
-## 6.2 Rubrica de talento do engenheiro de agentic
+## 6.2 Agentic Engineer Talent Rubric
 
-O aluno deve sair do curso conseguindo demonstrar:
+The student must leave the course being able to demonstrate:
 
-- clareza para definir objetivo operacional
-- habilidade de decompor tarefas em etapas confiaveis
-- criterio para decidir entre fluxo fixo e decisao do agente
-- dominio de tool design e schemas
-- capacidade de depurar traces e falhas reais
-- habilidade de medir qualidade com evals
-- nocao forte de seguranca, aprovacoes e escopo
-- maturidade para operar workflows em producao
+- clarity to define operational objective
+- ability to decompose tasks into reliable steps
+- criteria for deciding between fixed flow and agent decision
+- mastery of tool design and schemas
+- ability to debug real traces and crashes
+- ability to measure quality with evals
+- strong understanding of security, approvals and scope
+- maturity to operate workflows in production
 
-## 7. Referencias externas confiaveis para preencher as lacunas
+## 7. Reliable external references to fill in the gaps
 
-As recomendacoes abaixo sao baseadas em documentacao oficial e especificacoes primarias. A inferencia pedagogica aqui e: essas fontes apontam que formar um bom engenheiro de agentic exige treinar principalmente workflow design, tool use, seguranca, evals e observabilidade.
+The recommendations below are based on official documentation and primary specifications. The pedagogical inference here is: these sources point out that training a good agentic engineer requires training mainly in workflow design, tool use, security, evals and observability.
 
 ### OpenAI
 
-- Agents SDK: handoffs, tools, streaming e traces
-- Agent Builder e Node Reference: composicao de workflows e controle de fluxo
-- Agent Evals, Trace Grading, Graders e Prompt Optimizer: medicao, regressao e melhoria continua
-- Safety in building agents: guardrails, aprovacoes, dados nao confiaveis e reducao de risco
+- Agents SDK: handoffs, tools, streaming and traces
+- Agent Builder and Node Reference: composition of workflows and flow control
+- Agent Evals, Trace Grading, Graders and Prompt Optimizer: measurement, regression and continuous improvement
+- Safety in building agents: guardrails, approvals, unreliable data and risk reduction
 
 ### Anthropic
 
-- implementacao de tool use: definicao de tools, schemas e melhores praticas
-- web search, bash e code execution: padroes de integracao reais
-- streaming de tools e eficiencia de tokens: tradeoffs operacionais
+- implementation of tool use: definition of tools, schemas and best practices
+- web search, bash and code execution: real integration patterns
+- streaming tools and token efficiency: operational tradeoffs
 
-### MCP
+###MCP
 
-- lifecycle e capability negotiation: arquitetura e interoperabilidade
-- tools: contrato de exposicao e human-in-the-loop
-- inspector: depuracao de servidores MCP
-- design principles: composabilidade e convergencia de padroes
+- lifecycle and capability negotiation: architecture and interoperability
+- tools: exhibition contract and human-in-the-loop
+- inspector: debugging MCP servers
+- design principles: composability and convergence of patterns
 
-## 8. Conclusao
+## 8. Conclusion
 
-O projeto atual ja tem um bom nucleo para abrir um curso, mas ainda nao esta pronto como curso completo. A base existente sustenta bem:
+The current project already has a good nucleus to open a course, but it is not yet ready as a complete course. The existing base supports well:
 
-- a promessa do tema
-- a introducao conceitual
-- a comparacao de modelos
-- a camada de valor de negocio
+- the promise of the theme
+- conceptual introduction
+- model comparison
+- the business value layer
 
-O que falta para fechar um curso forte e principalmente a trilha tecnica intermediaria, com construcao, operacao, testes e casos praticos.
+What's missing to complete a strong course is mainly the intermediate technical track, with construction, operation, tests and practical cases.
 
-Se o foco for desenvolvimento de talento de engenharia agentic, a decisao correta e reorganizar o curso para que o aluno produza artefatos, depure falhas, rode avaliacoes e opere workflows reais, em vez de apenas consumir explicacoes conceituais.
+If the focus is developing agentic engineering talent, the right decision is to reorganize the course so that the student produces artifacts, debugs failures, runs evaluations and operates real workflows, instead of just consuming conceptual explanations.
 
-## 9. Proxima acao recomendada
+## 9. Recommended next action
 
-Se a ideia for transformar isso em produto educacional agora, a sequencia mais eficiente e:
+If the idea is to transform this into an educational product now, the most efficient sequence is:
 
-1. fechar a grade final das 3 trilhas
-2. definir modulos por trilha
-3. mapear o conteudo atual para cada modulo
-4. listar as aulas novas necessarias
-5. criar o `index.html` do curso e os `index.html` de cada trilha
-6. produzir os modulos em HTML no formato INEMA.CLUB
+1. close the final grid of the 3 tracks
+2. define modules per track
+3. map the current content to each module
+4. list the new classes needed
+5. create the`index.html`of the course and the`index.html`of each track
+6. produce the modules in HTML in duclub format
