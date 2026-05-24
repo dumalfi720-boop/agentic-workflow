@@ -1,67 +1,67 @@
-# Referencia Local — Padrao Visual da Trilha 1
+# Local Reference — Visual Pattern of Trail 1
 
-Esta referencia complementa a skill `formato-curso` com decisoes especificas adotadas no projeto `agentic-workflow`.
+This reference complements the skill`formato-curso`with specific decisions adopted in the project`agentic-workflow`.
 
-## Objetivo
+## Objective
 
-Padronizar a Trilha 1 para que todos os modulos sigam a mesma experiencia:
+Standardize Track 1 so that all modules follow the same experience:
 
-- cartao simples clicavel no topo da trilha
-- cartao detalhado com topicos expansivos
-- botoes `Abrir modulo` e `Ver em Modal` apenas depois da lista de topicos
-- tres caixas destacadas por topico:
-  - `O que e` em verde
-  - `Por que aprender` em azul
-  - `Conceitos-chave` em amarelo
+- simple clickable card at the top of the track
+- detailed card with expansive topics
+- buttons`Abrir modulo` e `Ver em Modal`just after the list of topics
+- three boxes highlighted by topic:
+  -`O que e`in green
+  -`Por que aprender`in blue
+  -`Conceitos-chave`in yellow
 
-## Regra de layout por modulo no index da trilha
+## Layout rule per module in the track index
 
-1. Header do modulo
-2. Lista de topicos expansivos
-3. Acoes no rodape do card
+1. Module header
+2. Expansive Topic List
+3. Actions in the card footer
 
-As acoes nao devem aparecer antes dos topicos.
+Actions should not appear before topics.
 
-## Regra de topicos expansivos
+## Expansive topic rule
 
-Cada topico deve conter exatamente estas 3 secoes visuais:
+Each topic must contain exactly these 3 visual sections:
 
-### O que e
+### What is
 
-- caixa verde
-- definicao curta e objetiva
+- green box
+- short and objective definition
 
-### Por que aprender
+### Why learn
 
-- caixa azul
-- impacto pratico e justificativa
+- blue box
+- practical impact and justification
 
-### Conceitos-chave
+### Key concepts
 
-- caixa amarela
-- termos, elementos ou criterios que o aluno deve guardar
+- yellow box
+- terms, elements or criteria that the student must keep
 
-## Regra de modulo completo
+## Complete module rule
 
-Cada pagina de modulo deve conter:
+Each module page must contain:
 
 1. breadcrumb
-2. header com stats
-3. 6 secoes principais com numero em circulo grande
-4. mistura de boxes:
-   - conceito principal
-   - dado ou criterio tecnico
-   - dica pratica
-   - fazer vs evitar
-   - alerta
-5. resumo final
-6. botao para voltar e botao para proximo modulo
+2. header with stats
+3. 6 main sections with numbers in a large circle
+4. box mixing:
+   - main concept
+   - technical data or criteria
+   - practical tip
+   - do vs avoid
+   - alert
+5. final summary
+6. back button and next module button
 
-## Escopo atual desta referencia
+## Current scope of this reference
 
-Aplica-se a:
+Applies to:
 
-- `curso/trilha1/index.html`
+-`curso/trilha1/index.html`
 - `curso/trilha1/modulo-1-1.html`
 - `curso/trilha1/modulo-1-2.html`
 - `curso/trilha1/modulo-1-3.html`
