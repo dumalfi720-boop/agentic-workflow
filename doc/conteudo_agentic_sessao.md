@@ -1,364 +1,362 @@
+# Content Compilation — Agentic Workflows
 
-# Compilação de Conteúdo — Agentic Workflows
-
-Este documento reúne todos os conteúdos explicativos produzidos nesta sessão sobre **Agentic AI, Workflows Agentic, Automação Tradicional e Chatbots**.
-
----
-
-# O que são Workflows Agentic
-
-Workflows agentic representam uma nova forma de construir automações utilizando inteligência artificial.
-
-Em vez de programar cada etapa manualmente, um **agente de IA recebe um objetivo e executa várias tarefas** utilizando ferramentas e lógica para chegar ao resultado final.
-
-Um sistema agentic pode:
-
-- pesquisar informações
-- usar APIs e ferramentas
-- tomar decisões durante o processo
-- executar várias etapas
-- gerar um resultado final
-
-Ou seja, ele funciona mais como **um assistente que realiza um trabalho inteiro**, não apenas como um chatbot.
+This document brings together all the explanatory content produced in this session on **Agentic AI, Agentic Workflows, Traditional Automation and Chatbots**.
 
 ---
 
-# Diferença entre Chatbot, Automação Tradicional e Agentic
+# What are Agentic Workflows
+
+Agentic workflows represent a new way of building automation using artificial intelligence.
+
+Instead of programming each step manually, an **AI agent is given a goal and performs multiple tasks** using tools and logic to reach the final result.
+
+An agentic system can:
+
+- search information
+- use APIs and tools
+- make decisions during the process
+- perform several steps
+- generate a final result
+
+In other words, it works more like **an assistant that performs an entire job**, not just like a chatbot.
+
+---
+
+# Difference between Chatbot, Traditional and Agentic Automation
 
 ## Chatbot
 
-Características:
+Features:
 
-- responde perguntas
-- gera texto ou código
-- depende do usuário para cada passo
+- answers questions
+- generates text or code
+- depends on the user for each step
 
-Exemplo:
+Example:
 
-Você pede:
+You ask:
 
-> escreva uma newsletter sobre IA
+> write a newsletter about AI
 
-O chatbot apenas gera o texto.
+The chatbot just generates the text.
 
 ---
 
-## Automação Tradicional
+## Traditional Automation
 
-Características:
+Features:
 
-- fluxo fixo
-- cada passo programado manualmente
-- quebra quando algo inesperado acontece
+- fixed flow
+- each step programmed manually
+- breaks when something unexpected happens
 
-Exemplo de fluxo:
+Flow example:
 
-1. pegar dados
-2. gerar texto
-3. enviar email
+1. get data
+2. generate text
+3. send email
 
-Se algo mudar no meio do processo, o fluxo falha.
+If something changes mid-process, the flow fails.
 
 ---
 
 ## Agentic AI
 
-Características:
+Features:
 
-- recebe um objetivo
-- decide quais passos executar
-- usa ferramentas automaticamente
-- executa tarefas completas
+- receives a goal
+- decides which steps to take
+- uses tools automatically
+- performs complete tasks
 
-Exemplo:
+Example:
 
-Pedido:
+Order:
 
-> crie uma newsletter sobre Agentic AI
+> create a newsletter about Agentic AI
 
-O sistema pode:
+The system can:
 
-1. pesquisar informações
-2. analisar dados
-3. escrever conteúdo
-4. gerar imagens
-5. montar HTML
-6. enviar email
-7. salvar relatório
+1. search for information
+2. analyze data
+3. write content
+4. generate images
+5. assemble HTML
+6. send email
+7. save report
 
 ---
 
-# Resumo Comparativo
+# Comparative Summary
 
-| Tipo | Função |
+| Type | Function |
 |-----|------|
-| Chatbot | responde perguntas |
-| Automação | executa fluxo fixo |
-| Agentic | decide e executa tarefas completas |
+| Chatbot | answers questions |
+| Automation | executes fixed flow |
+| Agentic | decides and executes complete tasks |
 
 ---
 
-# Por que Workflows Agentic estão crescendo
+# Why Agentic Workflows are growing
 
-Alguns fatores explicam o crescimento:
+Some factors explain the growth:
 
-- LLMs mais confiáveis
-- maior capacidade de raciocínio
-- ferramentas de integração mais simples
-- infraestrutura moderna de deploy
-- ferramentas acessíveis para construção
+- Most reliable LLMs
+- greater reasoning ability
+- simpler integration tools
+- modern deployment infrastructure
+- affordable tools for construction
 
-Isso permite criar sistemas mais complexos com menos esforço técnico.
+This allows you to create more complex systems with less technical effort.
 
 ---
 
-# Estrutura de um Sistema Agentic
+# Structure of an Agentic System
 
-Uma estrutura comum é chamada:
+A common structure is called:
 
-**WAT — Workflows, Agent, Tools**
+**WAT — Workflows, Agents, Tools**
 
-## Agent
+##Agent
 
-A inteligência que interpreta o objetivo e executa tarefas.
+The intelligence that interprets the objective and performs tasks.
 
 ## Workflows
 
-Processos descritos em linguagem natural que orientam o agente.
+Processes described in natural language that guide the agent.
+
+##Tools
+
+Tools that perform specific actions:
+
+- search
+- generate text
+- generate images
+- send emails
+- save data
+
+---
+
+# Agentic Workflow Example
+
+Newsletter automation.
+
+Steps:
+
+1. search for a topic
+2. collect information
+3. write content
+4. generate infographics
+5. assemble layout
+6. send email
+7. record data
+
+All from a single command.
+
+---
+
+# Workflow Planning
+
+Before building the system it is necessary to define:
+
+- data source
+- tools used
+- final content format
+- delivery method
+
+This planning helps the agent create a more efficient flow.
+
+---
+
+# Use of Context and Brand
+
+Agentic systems can use:
+
+- logos
+- brand colors
+- style guides
+
+This allows you to generate content consistent with the visual identity.
+
+---
+
+# System Components
+
+After planning, the following are normally created:
+
+## Settings
+
+Files with style patterns and parameters.
 
 ## Tools
 
-Ferramentas que executam ações específicas:
+Examples:
 
-- pesquisar
-- gerar texto
-- gerar imagens
-- enviar emails
-- salvar dados
+- search
+- image generation
+- HTML assembly
+- sending email
+- registration in database
 
----
+## Main workflow
 
-# Exemplo de Workflow Agentic
-
-Automação de newsletter.
-
-Etapas:
-
-1. pesquisar um tema
-2. coletar informações
-3. escrever conteúdo
-4. gerar infográficos
-5. montar layout
-6. enviar email
-7. registrar dados
-
-Tudo a partir de um único comando.
+File describing the process step by step.
 
 ---
 
-# Planejamento do Workflow
+# Credentials and Security
 
-Antes de construir o sistema é necessário definir:
+Integrations with APIs use environment variables (.env).
 
-- fonte de dados
-- ferramentas utilizadas
-- formato final do conteúdo
-- forma de entrega
+This protects:
 
-Esse planejamento ajuda o agente a criar um fluxo mais eficiente.
-
----
-
-# Uso de Contexto e Marca
-
-Sistemas agentic podem utilizar:
-
-- logotipos
-- cores da marca
-- guias de estilo
-
-Isso permite gerar conteúdos consistentes com a identidade visual.
-
----
-
-# Componentes do Sistema
-
-Após planejamento normalmente são criados:
-
-## Configurações
-
-Arquivos com padrões de estilo e parâmetros.
-
-## Ferramentas (Tools)
-
-Exemplos:
-
-- pesquisa
-- geração de imagens
-- montagem de HTML
-- envio de email
-- registro em banco de dados
-
-## Workflow principal
-
-Arquivo descrevendo o processo passo a passo.
-
----
-
-# Credenciais e Segurança
-
-Integrações com APIs utilizam variáveis de ambiente (.env).
-
-Isso protege:
-
-- chaves de API
+- API keys
 - tokens
-- credenciais sensíveis
+- sensitive credentials
 
 ---
 
-# Testes
+# Tests
 
-Durante testes podem surgir problemas como:
+During testing, problems may arise such as:
 
-- erros de integração
-- falhas de formatação
-- endpoints incorretos
+- integration errors
+- formatting errors
+- incorrect endpoints
 
-O sistema pode ser ajustado iterativamente.
+The system can be adjusted iteratively.
 
 ---
 
-# Melhoria Contínua
+# Continuous Improvement
 
-Workflows agentic melhoram com uso.
+Agentic workflows improve with use.
 
-Com mais execuções é possível:
+With more executions it is possible:
 
-- ajustar ferramentas
-- melhorar prompts
-- adicionar contexto
-- aumentar confiabilidade
+- adjust tools
+- improve prompts
+- add context
+- increase reliability
 
 ---
 
 # Deploy
 
-Após validação o sistema pode rodar automaticamente.
+After validation, the system can run automatically.
 
-Exemplos:
+Examples:
 
-- diariamente
-- semanalmente
-- acionado por evento
+- daily
+- weekly
+- event-triggered
 
 ---
 
 # Skills
 
-Skills são conjuntos de instruções reutilizáveis.
+Skills are sets of reusable instructions.
 
-Exemplos:
+Examples:
 
-- design de layout
-- geração de gráficos
-- estruturação de conteúdo
+- layout design
+- generation of graphics
+- content structuring
 
-Isso permite reutilizar conhecimento em vários projetos.
-
----
-
-# Talentos Necessários
-
-Algumas habilidades importantes:
-
-- pensamento de processos
-- raciocínio lógico
-- capacidade de estruturar fluxos
-- entendimento de APIs e integrações
-- curiosidade e experimentação
-- comunicação com negócios
+This allows you to reuse knowledge across multiple projects.
 
 ---
 
-# Como Aplicar na Prática
+# Required Talents
+Some important skills:
 
-Fluxo prático:
-
-1. identificar um processo repetitivo
-2. definir objetivo do agente
-3. estruturar workflow
-4. criar tools
-5. testar sistema
-6. corrigir erros
-7. melhorar processo
-8. automatizar execução
+- process thinking
+- logical reasoning
+- ability to structure flows
+- understanding APIs and integrations
+- curiosity and experimentation
+- communication with business
 
 ---
 
-# Exemplos de Processos Automatizáveis
+# How to Apply in Practice
 
-- geração de newsletters
-- relatórios automáticos
-- atendimento a leads
-- análise de concorrência
-- criação de conteúdo
-- organização de dados
+Practical flow:
 
----
-
-# Como Gerar Valor
-
-O maior valor não está em criar tecnologia impressionante.
-
-O valor está em resolver problemas reais:
-
-- tarefas repetitivas
-- gargalos operacionais
-- erros manuais
-- processos lentos
+1. identify a repetitive process
+2. define the agent's objective
+3. structure workflow
+4. create tools
+5. Test system
+6. Fix errors
+7. improve process
+8. Automate execution
 
 ---
 
-# Analogia do Gargalo
+# Examples of Automable Processes
 
-Uma empresa pode ser comparada a um encanamento.
-
-Se há um entupimento, aumentar o fluxo não resolve.
-
-Primeiro é preciso remover o gargalo.
-
-Automação inteligente resolve esses pontos.
-
----
-
-# Modelos de Cobrança
-
-Muitos profissionais cobram pelo valor gerado.
-
-Exemplo:
-
-Se uma automação economiza $10.000 por mês para a empresa,
-um projeto de $5.000 pode ser extremamente vantajoso.
+- generation of newsletters
+- automatic reports
+- lead service
+- competition analysis
+- content creation
+- data organization
 
 ---
 
-# Caminho Profissional
+# How to Generate Value
 
-Evolução comum:
+The greatest value is not in creating impressive technology.
 
-freelancer → consultor → parceiro estratégico
+The value is in solving real problems:
+
+- repetitive tasks
+- operational bottlenecks
+- manual errors
+- slow processes
 
 ---
 
-# Conclusão
+# Bottleneck Analogy
 
-Workflows agentic representam uma nova geração de automações.
+A company can be compared to a pipeline.
 
-Eles combinam:
+If there is a blockage, increasing the flow will not solve it.
 
-- agentes inteligentes
-- ferramentas integradas
-- workflows estruturados
+First you need to remove the bottleneck.
 
-Isso permite construir sistemas capazes de executar tarefas complexas e gerar grande valor para empresas.
+Intelligent automation solves these points.
+
+---
+
+# Billing Models
+
+Many professionals charge for the value generated.
+
+Example:
+
+If automation saves the company $10,000 per month,
+a $5,000 project can be extremely advantageous.
+
+---
+
+# Professional Path
+
+Common evolution:
+
+freelancer → consultant → strategic partner
+
+---
+
+# Conclusion
+
+Agentic workflows represent a new generation of automations.
+
+They combine:
+
+- intelligent agents
+- integrated tools
+- structured workflows
+
+This allows you to build systems capable of performing complex tasks and generating great value for companies.
