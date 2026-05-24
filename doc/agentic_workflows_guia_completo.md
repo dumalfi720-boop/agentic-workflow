@@ -1,174 +1,173 @@
+# Agentic Workflows: Complete Guide
 
-# Workflows Agentic: Guia Completo
+## Introduction
 
-## Introdução
-
-Workflows agentic representam uma nova forma de construir automações utilizando inteligência artificial.
-Em vez de programar cada etapa manualmente, um agente de IA recebe um objetivo e executa várias tarefas
-utilizando ferramentas e lógica para alcançar o resultado.
+Agentic workflows represent a new way of building automation using artificial intelligence.
+Instead of programming each step manually, an AI agent is given a goal and performs multiple tasks
+using tools and logic to achieve the result.
 
 ---
 
-## Diferença entre Chatbot, Automação Tradicional e Agentic
+## Difference between Chatbot, Traditional and Agentic Automation
 
 ### Chatbot
-- Responde perguntas
-- Gera texto ou código
-- Depende do usuário para cada passo
+- Answers questions
+- Generates text or code
+- Depends on the user for each step
 
-### Automação Tradicional
-- Fluxo fixo
-- Cada passo é mapeado manualmente
-- Quebra quando algo inesperado acontece
+### Traditional Automation
+- Fixed flow
+- Each step is mapped manually
+- Breaks when something unexpected happens
 
 ### Agentic
-- Recebe um objetivo
-- Decide quais passos executar
-- Usa ferramentas automaticamente
-- Executa tarefas completas
+- Receive a goal
+- Decide which steps to take
+- Uses tools automatically
+- Performs complete tasks
 
 ---
 
-## Por que Workflows Agentic estão crescendo
+## Why Agentic Workflows are growing
 
-- LLMs mais confiáveis
-- Melhor capacidade de raciocínio
-- Infraestrutura moderna para deploy
-- Ferramentas que facilitam criação sem código complexo
+- Most reliable LLMs
+- Better reasoning ability
+- Modern infrastructure for deployment
+- Tools that facilitate creation without complex code
 
 ---
 
-## Estrutura de um sistema agentic
+## Structure of an agentic system
 
-### Agent
-A inteligência que interpreta instruções e decide como executar tarefas.
+###Agent
+The intelligence that interprets instructions and decides how to perform tasks.
 
 ### Workflows
-Processos descritos em linguagem natural que definem como executar tarefas.
+Processes described in natural language that define how to perform tasks.
 
-### Tools
-Ferramentas que executam funções específicas (pesquisa, envio de email, geração de imagens etc.).
+###Tools
+Tools that perform specific functions (search, sending email, generating images, etc.).
 
-Framework comum: **WAT (Workflows, Agent, Tools)**
-
----
-
-## Exemplo de workflow agentic
-
-Automação de newsletter:
-
-1. Pesquisar um tema
-2. Estruturar conteúdo
-3. Gerar imagens ou gráficos
-4. Montar layout HTML
-5. Enviar email automaticamente
+Common framework: **WAT (Workflows, Agent, Tools)**
 
 ---
 
-## Planejamento do sistema
+## Agentic workflow example
 
-Antes de construir o workflow é importante definir:
+Newsletter automation:
 
-- Fonte de dados
-- Ferramentas utilizadas
-- Formato final da entrega
-- Fluxo de execução
+1. Search for a topic
+2. Structure content
+3. Generate images or graphics
+4. Create HTML layout
+5. Send email automatically
 
 ---
 
-## Configurações e credenciais
+## System planning
 
-APIs e integrações devem utilizar variáveis de ambiente (.env) para proteger:
+Before building the workflow it is important to define:
 
-- chaves de API
+- Data source
+- Tools used
+- Final delivery format
+- Execution flow
+
+---
+
+## Settings and credentials
+
+APIs and integrations must use environment variables (.env) to protect:
+
+- API keys
 - tokens
-- credenciais sensíveis
+- sensitive credentials
 
 ---
 
-## Testes e melhoria contínua
+## Testing and continuous improvement
 
-Após construir o workflow:
+After building the workflow:
 
-- executar testes
-- corrigir erros
-- melhorar ferramentas
-- refinar processos
+- run tests
+- fix errors
+- improve tools
+- refine processes
 
-Sistemas agentic melhoram com iteração.
+Agentic systems improve with iteration.
 
 ---
 
 ## Deploy
 
-Após validação o sistema pode ser executado automaticamente:
+After validation, the system can be automatically executed:
 
-- diariamente
-- semanalmente
-- por evento
+- daily
+- weekly
+- by event
 
 ---
 
 ## Skills
 
-Skills são conjuntos de instruções reutilizáveis que melhoram a capacidade do agente.
+Skills are sets of reusable instructions that improve the agent's capabilities.
 
-Exemplos:
-- design de interface
-- geração de gráficos
-- estruturação de textos
-
----
-
-## Como gerar valor com agentic
-
-O maior valor não está em construir demos impressionantes, mas em resolver problemas reais:
-
-- perda de leads
-- processos manuais
-- erros operacionais
-- tarefas repetitivas
+Examples:
+- interface design
+- generation of graphics
+- structuring texts
 
 ---
 
-## Analogia do gargalo
+## How to generate value with agentic
 
-Uma empresa pode ser comparada a um sistema de encanamento.
+The greatest value is not in building impressive demos, but in solving real problems:
 
-Se houver um entupimento, aumentar o fluxo não resolve.
-
-Primeiro é preciso remover o gargalo.
-
-Automação inteligente resolve esses pontos críticos.
-
----
-
-## Modelos de negócio
-
-Em vez de cobrar por hora, muitos profissionais cobram pelo valor gerado.
-
-Exemplo:
-Se uma automação economiza $10.000/mês para uma empresa,
-um projeto de $5.000 pode ser extremamente vantajoso.
+- loss of leads
+- manual processes
+- operational errors
+- repetitive tasks
 
 ---
 
-## Caminho profissional
+## Bottleneck analogy
 
-Evolução comum:
+A company can be compared to a plumbing system.
 
-freelancer → consultor → parceiro estratégico
+If there is a clog, increasing the flow will not solve it.
+
+First you need to remove the bottleneck.
+
+Intelligent automation solves these pain points.
 
 ---
 
-## Conclusão
+## Business models
 
-Workflows agentic representam uma nova geração de automações baseadas em IA.
+Instead of charging by the hour, many professionals charge by the value generated.
 
-Eles combinam:
+Example:
+If automation saves a company $10,000/month,
+a $5,000 project can be extremely advantageous.
 
-- agentes inteligentes
-- ferramentas integradas
-- workflows estruturados
+---
 
-Isso permite construir sistemas capazes de executar tarefas complexas e gerar grande valor para empresas.
+## Professional path
+
+Common evolution:
+
+freelancer → consultant → strategic partner
+
+---
+
+## Conclusion
+
+Agentic workflows represent a new generation of AI-based automations.
+
+They combine:
+
+- intelligent agents
+- integrated tools
+- structured workflows
+
+This allows you to build systems capable of performing complex tasks and generating great value for companies.
