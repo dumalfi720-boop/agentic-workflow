@@ -1,225 +1,224 @@
-# Grade Final — Engenharia Agentic em 3 Trilhas
+# Final Grade — Agentic Engineering in 3 Tracks
 
-## Visao geral
+## Overview
 
-- Curso: Engenharia Agentic
-- Trilhas: 3
-- Modulos: 18
-- Formato: teoria aplicada + laboratorio + projeto
-- Resultado esperado: formar engenheiro de agentic com foco em workflow, tools, evals, seguranca e operacao
+- Course: Agentic Engineering
+- Trails: 3
+- Modules: 18
+- Format: applied theory + laboratory + project
+- Expected result: train an agentic engineer with a focus on workflow, tools, evals, security and operations
 
-## Trilha 1 — Fundamentos Agentic
+## Track 1 — Agentic Fundamentals
 
-### Modulo 1. O que e Agentic AI e como pensar como engenheiro
+### Module 1. What is Agentic AI and how to think like an engineer
 
-- Aula 1: chatbot, automacao e agentic
-- Aula 2: objetivo, contexto, restricao e saida
-- Aula 3: criterios de sucesso e falha
-- Aula 4: decomposicao de tarefas
-- Aula 5: quando usar fluxo fixo e quando usar decisao do agente
-- Aula 6: laboratorio de especificacao de workflow
-- Entregavel: spec de workflow em linguagem natural + contrato de entrada e saida
+- Class 1: chatbot, automation and agentic
+- Class 2: objective, context, restriction and exit
+- Class 3: success and failure criteria
+- Class 4: task decomposition
+- Lesson 5: when to use fixed flow and when to use agent decision
+- Class 6: workflow specification laboratory
+- Deliverable: workflow spec in natural language + input and output contract
 
-### Modulo 2. Fundamentos tecnicos que sustentam workflows
+### Module 2. Technical foundations that support workflows
 
-- Aula 1: APIs, requests e respostas
-- Aula 2: JSON, arquivos e parsers
-- Aula 3: webhooks e eventos
-- Aula 4: autenticacao, secrets e .env
-- Aula 5: erros de integracao e contratos
-- Aula 6: laboratorio de consumo de API
-- Entregavel: mini integracao com input, output e tratamento de erro
+- Class 1: APIs, requests and responses
+- Class 2: JSON, files and parsers
+- Class 3: webhooks and events
+- Class 4: authentication, secrets and .env
+- Class 5: integration errors and contracts
+- Class 6: API consumption laboratory
+- Deliverable: mini integration with input, output and error handling
 
-### Modulo 3. Framework WAT na pratica
+### Module 3. WAT Framework in practice
 
-- Aula 1: workflow, agent e tools
-- Aula 2: limites de cada camada
-- Aula 3: orquestracao minima
-- Aula 4: handoffs e composicao
-- Aula 5: observabilidade inicial
-- Aula 6: laboratorio WAT
-- Entregavel: mapa arquitetural simples
+- Class 1: workflow, agents and tools
+- Class 2: limits of each layer
+- Class 3: minimal orchestration
+- Class 4: handoffs and composition
+- Class 5: initial observability
+- Class 6: WAT laboratory
+- Deliverable: simple architectural map
 
-### Modulo 4. Tool design e schemas
+### Module 4. Tool design and schemas
 
-- Aula 1: como descrever bem uma tool
-- Aula 2: schemas de entrada e saida
-- Aula 3: validacao e tipos
-- Aula 4: erros recuperaveis e nao recuperaveis
-- Aula 5: aprovacoes humanas
-- Aula 6: laboratorio de tool calling
-- Entregavel: 3 tools com schema e casos de teste
+- Class 1: how to describe a tool well
+- Class 2: input and output schemas
+- Class 3: validation and types
+- Class 4: recoverable and non-recoverable errors
+- Class 5: human approvals
+- Class 6: tool calling laboratory
+- Deliverable: 3 tools with schema and test cases
 
-### Modulo 5. Contexto, memoria e reutilizacao
+### Module 5. Context, memory and reuse
 
-- Aula 1: contexto de sessao
-- Aula 2: memoria persistente
-- Aula 3: arquivos de configuracao
-- Aula 4: skills e instrucoes reutilizaveis
-- Aula 5: contexto de marca e negocio
-- Aula 6: laboratorio de memoria
-- Entregavel: workflow com estado minimo persistido
+- Class 1: session context
+- Lesson 2: persistent memory
+- Class 3: configuration files
+- Class 4: reusable skills and instructions
+- Class 5: brand and business context
+- Class 6: memory laboratory
+- Deliverable: workflow with minimal persisted state
 
-### Modulo 6. Primeiro mini projeto agentic
+### Module 6. First agentic mini project
 
-- Aula 1: pesquisa
-- Aula 2: sintese
-- Aula 3: validacao
-- Aula 4: entrega estruturada
-- Aula 5: revisao por criterio
-- Aula 6: demo final
-- Entregavel: assistente de pesquisa e sintese
+- Class 1: research
+- Class 2: synthesis
+- Class 3: validation
+- Class 4: structured delivery
+- Class 5: review by criteria
+- Class 6: final demo
+- Deliverable: research and synthesis assistant
 
-## Trilha 2 — Construcao e Operacao de Sistemas Agentic
+## Track 2 — Construction and Operation of Agentic Systems
 
-### Modulo 1. Arquitetura de sistemas agentic
+### Module 1. Agentic systems architecture
 
-- Aula 1: runtime e componentes
-- Aula 2: etapas de execucao
-- Aula 3: pontos de decisao
-- Aula 4: filas, estados e persistencia
-- Aula 5: fronteiras entre deterministico e agentico
-- Aula 6: laboratorio de arquitetura
-- Entregavel: diagrama operacional do sistema
+- Class 1: runtime and components
+- Class 2: execution steps
+- Class 3: decision points
+- Class 4: queues, states and persistence
+- Class 5: borders between deterministic and agentic
+- Class 6: architecture laboratory
+- Deliverable: operational diagram of the system
 
-### Modulo 2. Design de workflows confiaveis
+### Module 2. Designing reliable workflows
 
-- Aula 1: decomposicao confiavel
-- Aula 2: checkpoints
-- Aula 3: fallback e retry
-- Aula 4: human in the loop
-- Aula 5: recuperacao de falha
-- Aula 6: laboratorio de robustez
-- Entregavel: workflow com fallback e checkpoint
+- Class 1: reliable decomposition
+- Class 2: checkpoints
+- Class 3: fallback and retry
+- Class 4: human in the loop
+- Class 5: failure recovery
+- Class 6: robustness laboratory
+- Deliverable: workflow with fallback and checkpoint
 
-### Modulo 3. Integracoes reais
+### Module 3. Real integrations
 
-- Aula 1: arquivos e storage
-- Aula 2: APIs e rate limit
-- Aula 3: banco de dados
-- Aula 4: email e notificacao
-- Aula 5: scraping e pesquisa
-- Aula 6: laboratorio de integracao
-- Entregavel: pipeline com 3 integracoes
+- Class 1: files and storage
+- Class 2: APIs and rate limit
+- Class 3: database
+- Class 4: email and notification
+- Class 5: scraping and research
+- Class 6: integration laboratory
+- Deliverable: pipeline with 3 integrations
 
-### Modulo 4. MCP e interoperabilidade
+### Module 4. MCP and interoperability
 
-- Aula 1: arquitetura MCP
-- Aula 2: resources, prompts e tools
-- Aula 3: capability negotiation
-- Aula 4: MCP server simples
-- Aula 5: inspector e debug
-- Aula 6: laboratorio MCP
-- Entregavel: MCP server ou cliente simples funcional
+- Class 1: MCP architecture
+- Class 2: resources, prompts and tools
+- Class 3: Capability negotiation
+- Lesson 4: Simple MCP server
+- Class 5: inspector and debug
+- Class 6: MCP laboratory
+- Deliverable: MCP server or simple functional client
 
-### Modulo 5. Evals, traces e depuracao
+### Module 5. Evals, traces and debugging
 
-- Aula 1: casos de teste
-- Aula 2: graders
-- Aula 3: trace analysis
-- Aula 4: regressao entre versoes
-- Aula 5: tuning sem quebrar o que ja funciona
-- Aula 6: laboratorio de eval
-- Entregavel: suite minima de eval + analise de trace
+- Class 1: test cases
+- Class 2: graders
+- Class 3: trace analysis
+- Class 4: regression between versions
+- Lesson 5: tuning without breaking what already works
+- Class 6: eval laboratory
+- Deliverable: minimum eval suite + trace analysis
 
-### Modulo 6. Seguranca e guardrails
+### Module 6. Safety and guardrails
 
-- Aula 1: escopo de tools
-- Aula 2: acoes destrutivas
-- Aula 3: prompt injection
-- Aula 4: dados nao confiaveis
-- Aula 5: controles humanos
-- Aula 6: laboratorio de seguranca
-- Entregavel: checklist de risco e politica de aprovacao
+- Class 1: scope of tools
+- Class 2: destructive actions
+- Class 3: prompt injection
+- Class 4: unreliable data
+- Class 5: human controls
+- Class 6: safety laboratory
+- Deliverable: risk checklist and approval policy
 
-### Modulo 7. Deploy e operacao
+### Module 7. Deploy and operation
 
-- Aula 1: execucao local e remota
-- Aula 2: schedulers e webhooks
-- Aula 3: logs e monitoramento
-- Aula 4: custo, latencia e taxa de falha
-- Aula 5: runbooks operacionais
-- Aula 6: laboratorio de deploy
-- Entregavel: workflow implantado com logs e metricas
+- Class 1: local and remote execution
+- Class 2: schedulers and webhooks
+- Class 3: logs and monitoring
+- Class 4: cost, latency and failure rate
+- Class 5: operational runbooks
+- Class 6: deployment laboratory
+- Deliverable: workflow implemented with logs and metrics
 
-### Modulo 8. Projeto principal de engenharia
+### Module 8. Main engineering project
 
-- Aula 1: definicao do caso
-- Aula 2: implementacao
-- Aula 3: observabilidade
-- Aula 4: seguranca
-- Aula 5: avaliacao
-- Aula 6: apresentacao final
-- Entregavel: workflow agentic de ponta a ponta
+- Class 1: case definition
+- Class 2: implementation
+- Class 3: observability
+- Class 4: security
+- Class 5: assessment
+- Class 6: final presentation
+- Deliverable: end-to-end agentic workflow
+## Track 3 — Market, Consulting and Products
 
-## Trilha 3 — Mercado, Consultoria e Produtos
+### Module 1. Diagnosis of real bottlenecks
 
-### Modulo 1. Diagnostico de gargalos reais
+- Class 1: map process
+- Lesson 2: finding waste
+- Class 3: choose eligible problem
+- Class 4: when not to use agentic
+- Class 5: risk and priority
+- Class 6: discovery laboratory
+- Deliverable: opportunity map
 
-- Aula 1: mapear processo
-- Aula 2: achar desperdicio
-- Aula 3: escolher problema elegivel
-- Aula 4: quando nao usar agentic
-- Aula 5: risco e prioridade
-- Aula 6: laboratorio de discovery
-- Entregavel: mapa de oportunidade
+### Module 2. Use cases by area
 
-### Modulo 2. Casos de uso por area
+- Class 1: marketing
+- Class 2: sales
+- Class 3: service
+- Class 4: operations
+- Class 5: finance and HR
+- Class 6: sectoral adaptation laboratory
+- Deliverable: backlog of use cases
 
-- Aula 1: marketing
-- Aula 2: vendas
-- Aula 3: atendimento
-- Aula 4: operacoes
-- Aula 5: financeiro e RH
-- Aula 6: laboratorio de adaptacao setorial
-- Entregavel: backlog de casos de uso
+### Module 3. Technical-commercial scope
 
-### Modulo 3. Escopo tecnico-comercial
+- Class 1: as-is and to-be
+- Class 2: premises
+- Class 3: risks
+- Class 4: minimum viable scope
+- Class 5: schedule and dependency
+- Class 6: proposal laboratory
+- Deliverable: implementation proposal
 
-- Aula 1: as-is e to-be
-- Aula 2: premissas
-- Aula 3: riscos
-- Aula 4: escopo minimo viavel
-- Aula 5: cronograma e dependencia
-- Aula 6: laboratorio de proposta
-- Entregavel: proposta de implementacao
+### Module 4. ROI and pricing
 
-### Modulo 4. ROI e precificacao
+- Lesson 1: time saved
+- Class 2: reduced error
+- Class 3: avoided cost
+- Class 4: revenue generated
+- Class 5: price by value
+- Class 6: calculation laboratory
+- Deliverable: ROI calculator
 
-- Aula 1: tempo economizado
-- Aula 2: erro reduzido
-- Aula 3: custo evitado
-- Aula 4: receita gerada
-- Aula 5: preco por valor
-- Aula 6: laboratorio de calculo
-- Entregavel: calculadora de ROI
+### Module 5. Delivery and adoption
 
-### Modulo 5. Entrega e adocao
+- Class 1: onboarding
+- Class 2: access and credentials
+- Class 3: validation of acceptance
+- Class 4: rollout
+- Class 5: maintenance and SLA
+- Class 6: handoff laboratory
+- Deliverable: rollout plan
 
-- Aula 1: onboarding
-- Aula 2: acessos e credenciais
-- Aula 3: validacao de aceite
-- Aula 4: rollout
-- Aula 5: manutencao e SLA
-- Aula 6: laboratorio de handoff
-- Entregavel: plano de rollout
+### Module 6. Portfolio, offer and product
 
-### Modulo 6. Portfolio, oferta e produto
+- Class 1: build case
+- Lesson 2: packaging offer
+- Class 3: recurrence
+- Lesson 4: positioning
+- Class 5: evolution from freelancer to partner
+- Class 6: supply laboratory
+- Deliverable: offer page or case
 
-- Aula 1: construir case
-- Aula 2: empacotar oferta
-- Aula 3: recorrencia
-- Aula 4: posicionamento
-- Aula 5: evolucao freelancer para parceiro
-- Aula 6: laboratorio de oferta
-- Entregavel: pagina de oferta ou case
+### Module 7. Business Capstone
 
-### Modulo 7. Capstone de negocio
-
-- Aula 1: diagnostico
-- Aula 2: desenho da solucao
-- Aula 3: ROI
-- Aula 4: plano de execucao
-- Aula 5: pitch
-- Aula 6: banca final
-- Entregavel: proposta completa para empresa real
+- Class 1: diagnosis
+- Class 2: solution design
+- Lesson 3: ROI
+- Class 4: execution plan
+- Lesson 5: pitch
+- Class 6: final panel
+- Deliverable: complete proposal for real company
